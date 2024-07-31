@@ -8,6 +8,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { HomeComponent } from './component/home/home.component';
 import { Conteneur1Component } from './component/home/conteneur-1/conteneur-1.component';
 import { Conteneur2Component } from './component/home/conteneur-2/conteneur-2.component';
+import { AdvertisingNetworkComponent } from './component/advertising-network/advertising-network.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { Conteneur2Component } from './component/home/conteneur-2/conteneur-2.co
     FooterComponent,
     HomeComponent,
     Conteneur1Component,
-    Conteneur2Component
+    Conteneur2Component,
+    AdvertisingNetworkComponent
   ],
   imports: [
     BrowserModule,

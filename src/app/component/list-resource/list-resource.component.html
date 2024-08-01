@@ -1,20 +1,29 @@
-<ul>
-    <ng-container *ngFor="let book of data">
-      <ng-container *ngFor="let country of book.Country">
-        <li [ngClass]="'N1'">{{ country.name }}
-          <ul>
-            <ng-container *ngFor="let establishment of country.Establishment">
-              <li [ngClass]="'N2'">{{ establishment.name }}
-                <ul>
-                  <ng-container *ngFor="let branch of establishment.Branch">
-                    <li [ngClass]="'N3'">{{ branch.name }}</li>
-                  </ng-container>
-                </ul>
-              </li>
-            </ng-container>
-          </ul>
-        </li>
-      </ng-container>
-    </ng-container>
-  </ul>
+
+<div id="List__Data">
+
+  
+        <ng-container *ngFor="let book of data">
+          <ng-container *ngFor="let country of book.Country">
+
+            <div [ngClass]="'N1'">{{ country.name }}</div>
+             
+                <ng-container *ngFor="let establishment of country.Establishment">
+
+                  <div  [ngClass]="'N2'">{{ establishment.name }}</div> 
+                  
+                     <ng-container *ngFor="let branch of establishment.Branch">
+
+                        <div [ngClass]="'N3'">{{ branch.name }}</div>
+
+                      </ng-container> 
+                   
+                </ng-container>
+            
+         
+          </ng-container>
+        </ng-container>
+     
+
+
+</div>  
   

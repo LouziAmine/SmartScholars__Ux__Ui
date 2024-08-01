@@ -12,6 +12,11 @@ import { AdvertisingNetworkComponent } from './component/advertising-network/adv
 import { ResearchResourceComponent } from './component/research-resource/research-resource.component';
 import { ListResourceComponent } from './component/list-resource/list-resource.component';
 
+
+
+import {DataServiceService} from './Service/data-service.service';
+import { provideHttpClient } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +33,7 @@ import { ListResourceComponent } from './component/list-resource/list-resource.c
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [DataServiceService, provideHttpClient()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

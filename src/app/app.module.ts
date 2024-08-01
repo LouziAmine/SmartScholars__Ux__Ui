@@ -16,6 +16,7 @@ import { ListResourceComponent } from './component/list-resource/list-resource.c
 
 import {DataServiceService} from './Service/data-service.service';
 import { provideHttpClient } from '@angular/common/http';
+import { ListResourceDetails1Component } from './component/list-resource/list-resource-details-1/list-resource-details-1.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { provideHttpClient } from '@angular/common/http';
     Conteneur2Component,
     AdvertisingNetworkComponent,
     ResearchResourceComponent,
-    ListResourceComponent
+    ListResourceComponent,
+    ListResourceDetails1Component
   ],
   imports: [
     BrowserModule,

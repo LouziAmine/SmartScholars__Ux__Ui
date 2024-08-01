@@ -2,6 +2,8 @@ import { Component,OnInit  } from '@angular/core';
 
 import {DataServiceService} from '../../Service/data-service.service';
 
+import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-list-resource',
   templateUrl: './list-resource.component.html',
@@ -10,12 +12,20 @@ import {DataServiceService} from '../../Service/data-service.service';
 export class ListResourceComponent implements OnInit {
   data: any;
 
-  constructor(private dataServiceService: DataServiceService) {}
+  constructor(private dataServiceService: DataServiceService , private router: Router) {}
 
   ngOnInit(): void {
     this.dataServiceService.getData().subscribe(data => {
       this.data = data.books;
     });
+  }
+
+  
+
+  goToDetails(establishment: any): void {
+    if (establishment.LevelEducation) {
+      this.router.navigate(['/details', establishment.LevelEducation]);
+    }
   }
 
 }

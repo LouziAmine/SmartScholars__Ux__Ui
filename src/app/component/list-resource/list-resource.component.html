@@ -1,7 +1,7 @@
 
 <div id="List__Data">
 
-  
+  <div class="List__Data__Center">
         <ng-container *ngFor="let book of data">
           <ng-container *ngFor="let country of book.Country">
 
@@ -9,13 +9,16 @@
              
                 <ng-container *ngFor="let establishment of country.Establishment">
 
-                  <div  [ngClass]="'N2'">{{ establishment.name }}</div> 
+                  <div  [ngClass]="'N2'" (click)="goToDetails(establishment)" > <div class="circle"></div> <div>{{ establishment.name }}</div> </div> 
                   
-                     <ng-container *ngFor="let branch of establishment.Branch">
+                <!--   
+                    <ng-container *ngFor="let branch of establishment.Branch">
 
                         <div [ngClass]="'N3'">{{ branch.name }}</div>
 
-                      </ng-container> 
+                     </ng-container> 
+                      
+                      -->
                    
                 </ng-container>
             
@@ -23,7 +26,7 @@
           </ng-container>
         </ng-container>
      
-
+  </div>
 
 </div>  
   

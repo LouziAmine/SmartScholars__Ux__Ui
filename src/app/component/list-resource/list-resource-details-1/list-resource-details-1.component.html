@@ -1,0 +1,15 @@
+<ul *ngIf="levelEducationData!.length > 0; else noData">
+    <ng-container *ngFor="let establishment of levelEducationData">
+      <li>{{ establishment.name }}
+        <ul>
+          <ng-container *ngFor="let branch of establishment.Branch">
+            <li>{{ branch.name }}</li>
+          </ng-container>
+        </ul>
+      </li>
+    </ng-container>
+  </ul>
+  <ng-template #noData>
+    <p>No data available for the selected level.</p>
+  </ng-template>
+  

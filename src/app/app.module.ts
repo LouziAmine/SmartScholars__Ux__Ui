@@ -10,6 +10,7 @@ import { Conteneur1Component } from './component/home/conteneur-1/conteneur-1.co
 import { Conteneur2Component } from './component/home/conteneur-2/conteneur-2.component';
 import { AdvertisingNetworkComponent } from './component/advertising-network/advertising-network.component';
 import { ResearchResourceComponent } from './component/research-resource/research-resource.component';
+import { ListResourceComponent } from './component/list-resource/list-resource.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ResearchResourceComponent } from './component/research-resource/researc
     Conteneur1Component,
     Conteneur2Component,
     AdvertisingNetworkComponent,
-    ResearchResourceComponent
+    ResearchResourceComponent,
+    ListResourceComponent
   ],
   imports: [
     BrowserModule,

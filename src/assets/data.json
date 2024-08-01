@@ -1,0 +1,141 @@
+{
+    "books": [
+        {
+            "Country": [
+                {
+                    "id": 101,
+                    "name": "Maroc",
+                    "Establishment":[
+                        {
+                            "name": "Primaire",
+                            "LevelEducation" : "Primair_1",
+                            "Branch" : [{
+                                "name":"Primair_1",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            }]
+                        },
+                        {
+                            "name": "College",
+                            "LevelEducation" : "College",
+                            "Branch" : [{
+                                "name":"College",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            }]
+                        },
+                        {
+                            "name": "Lycee",
+                            "LevelEducation" : "Lycee",
+                            "Branch" : [{
+                                "name":"Lycee",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            }]
+                        },
+                        {
+                            "name": "CPGE",
+                            "LevelEducation" : "CPGE",
+                            "Branch" : [{
+                                "name":"CPGE",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            }]
+                        }
+                    ]
+                    
+
+                },
+                {
+                    "id": 102,
+                    "name": "France"
+                }
+            ]
+        }
+        
+    ]
+}

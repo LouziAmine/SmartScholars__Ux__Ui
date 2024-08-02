@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+   R4Path = 'assets/r4.png';
+
 }

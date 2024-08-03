@@ -24,8 +24,9 @@ export class ListResourceComponent implements OnInit {
 
   goToDetails(establishment: any): void {
     if (establishment.LevelEducation) {
-      this.router.navigate(['/details', establishment.LevelEducation]);
+      this.router.navigate(['/Details__Component', establishment.LevelEducation]);
     }
   }
+
 
 }

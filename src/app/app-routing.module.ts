@@ -4,12 +4,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './component/home/home.component';
 import { ListResourceDetails1Component } from './component/list-resource/list-resource-details-1/list-resource-details-1.component';
 
+import { DetailsComponent } from './component/details/details.component'; 
+
 const routes: Routes = [
 
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'details/:level', component: ListResourceDetails1Component },
+  { path: 'Details__Component/:level', component: DetailsComponent },
   { path: '**', redirectTo: '/home', pathMatch: 'full' }
+
 
 ];
 

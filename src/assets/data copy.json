@@ -1,0 +1,470 @@
+{
+    "books": [
+        {
+            "Country": [
+                {
+                    "id": 101,
+                    "name": "Maroc",
+                    "Establishment":[
+                        {
+                            "name": "Primaire",
+                            "LevelEducation" : "Primair_1",
+                            "Branch" : [{
+                                "name":"Primair_1",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            }]
+                        },
+                        {
+                            "name": "College",
+                            "LevelEducation" : "College",
+                            "Branch" : [{
+                                "name":"College",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            }]
+                        },
+                        {
+                            "name": "Tronc Commun",
+                            "LevelEducation" : "Lycee",
+                            "Branch" : [
+                                {
+                                "name":"Sciences",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            },
+                            {
+                                "name":"Technologies",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            },
+                            {
+                                "name":"Lettres et Sciences Humaines",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            }
+
+                        ]
+                        },
+                        {
+                            "name": "1 ère Bac",
+                            "LevelEducation" : "Lycee",
+                            "Branch" : [
+                                {
+                                "name":"Sciences Mathématiques",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            },
+                            {
+                                "name":"Sciences Expérimentales",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            },
+                            {
+                                "name":"Sciences et Technologies Électriques",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            },
+                            {
+                                "name":"Sciences et Technologies Mécaniques",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            },
+                            {
+                                "name":"Sciences et Technologies Mécaniques",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            }
+
+                        ]
+                        },
+                        {
+                            "name": "2 ère Bac",
+                            "LevelEducation" : "Lycee",
+                            "Branch" : [
+                                {
+                                "name":"Sciences Mathématiques",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            },
+                            {
+                                "name":"Sciences Expérimentales",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            },
+                            {
+                                "name":"Sciences et Technologies Électriques",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            },
+                            {
+                                "name":"Sciences et Technologies Mécaniques",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            },
+                            {
+                                "name":"Sciences et Technologies Mécaniques",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            }
+
+                        ]
+                        },
+                        {
+                            "name": "CPGE",
+                            "LevelEducation" : "CPGE",
+                            "Branch" : [{
+                                "name":"CPGE",
+                                "Subjects":[
+                                    {
+                                        "name":"Math",
+                                        "Classroom": [
+                                            {
+                                                "name":"S1",
+                                                "Champetre":[
+                                                    {
+                                                        "name":"Math 1",
+                                                        "ResourcesPDF":[
+                                                            {
+                                                                "name":"Math 1.pdf",
+                                                                "url" :"127.0.0.1/Math1.pdf",
+                                                                "typeResourcesPDF" :"Cours"
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+
+                            }]
+                        }
+                    ]
+                    
+
+                },
+                {
+                    "id": 102,
+                    "name": "France"
+                }
+            ]
+        }
+        
+    ]
+}

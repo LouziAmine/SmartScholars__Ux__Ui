@@ -25,32 +25,33 @@
 
 
 
-<div id="level"  class="FlexLevelEducation" *ngIf="levelEducationData!.length > 0">
-  <ng-container *ngFor="let establishment of levelEducationData; let i = index">
-    <div *ngIf="i === 0">{{ establishment.LevelEducation }}</div>
-  </ng-container>
-</div>
 
 
 
 
 <div    *ngIf="levelEducationData!.length > 0; else noData">
   <ng-container *ngFor="let establishment of levelEducationData">
-    <div >  <div class="Establishment"><div class="circle"></div><div>{{ establishment.name }}</div>  </div>
+    <div  >  <div  class="FlexLevelEducation" ><div class="circle"></div><div>{{ establishment.name }}</div>  </div>
 
 
-      <div  class="Branch__conteneur">
+   
 
-        <ng-container *ngFor="let branch of establishment.Branch">
-          <div class="Branch"><div class="circle"></div><div>{{ branch.name }}</div></div>
+        <ng-container *ngFor="let classLevel of establishment.ClassLevel">
+          <div class="Establishment" style="background-color: aqua  !important;"><div class="circle"></div><div>{{ classLevel.name }}</div></div>
 
+                    <div  class="Branch__conteneur">
+                            <ng-container *ngFor="let branch of classLevel.Branch">
 
-        
+                                <div  class="Branch" [ngClass]="'N3'"> <div class="circle"></div><div>{{ branch.name }}</div></div>
+
+                            </ng-container> 
+                  
+                    </div>
 
 
         </ng-container>
 
-      </div>
+      
 
 
     </div>

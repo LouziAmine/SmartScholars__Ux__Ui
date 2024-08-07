@@ -11,22 +11,26 @@ import { Router } from '@angular/router';
 })
 export class ListResourceComponent implements OnInit {
   data: any;
+  levelEducation: string = '';
 
+ 
   constructor(private dataServiceService: DataServiceService , private router: Router) {}
 
-  ngOnInit(): void {
+ ngOnInit(): void {
     this.dataServiceService.getData().subscribe(data => {
       this.data = data.books;
     });
   }
 
-  
 
+
+  
   goToDetails(establishment: any): void {
     if (establishment.LevelEducation) {
       this.router.navigate(['/Details__Component', establishment.LevelEducation]);
     }
   }
+    
 
 
 }

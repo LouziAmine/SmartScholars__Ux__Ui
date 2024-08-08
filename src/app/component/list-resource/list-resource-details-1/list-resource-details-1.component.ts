@@ -42,24 +42,11 @@ export class ListResourceDetails1Component  implements OnInit{
   goToDetails(establishment: any): void {
     console.log(establishment);
     //console.log(establishment.LevelEducation);
-    this.router.navigate(['/detailsbb', establishment]);
+    this.router.navigate(['/Details__Branch', establishment]);
   }
 
-  /*  goToDetails(establishment: any): void {
-      if (establishment.ClassLevel.name) {
-        this.router.navigate(['/Details__Component1', establishment.ClassLevel.name]);
-      }
-    }*/
-      /*goToDetails(establishment: any): void {
-        if (establishment.ClassLevel && establishment.ClassLevel.name) {
-          this.router.navigate(['/Details__Component1', establishment.ClassLevel.name]);
-        } else {
-          console.error('ClassLevel is undefined or does not have a name property', establishment);
-        }
-      }*/
+ 
 
-        navigateToDetails(level: string) {
-          this.router.navigate(['/detailsbb', level]);
-        }
+       
       
 }

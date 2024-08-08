@@ -19,6 +19,7 @@ import { provideHttpClient } from '@angular/common/http';
 import { ListResourceDetails1Component } from './component/list-resource/list-resource-details-1/list-resource-details-1.component';
 import { DetailsComponent } from './component/details/details.component';
 import { ListResourceDetails2Component } from './component/list-resource/list-resource-details-2/list-resource-details-2.component';
+import { Details2Component } from './component/details/details2/details2.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ListResourceDetails2Component } from './component/list-resource/list-re
     ListResourceComponent,
     ListResourceDetails1Component,
     DetailsComponent,
-    ListResourceDetails2Component
+    ListResourceDetails2Component,
+    Details2Component
   ],
   imports: [
     BrowserModule,

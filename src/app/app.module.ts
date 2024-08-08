@@ -20,6 +20,7 @@ import { ListResourceDetails1Component } from './component/list-resource/list-re
 import { DetailsComponent } from './component/details/details.component';
 import { ListResourceDetails2Component } from './component/list-resource/list-resource-details-2/list-resource-details-2.component';
 import { Details2Component } from './component/details/details2/details2.component';
+import { ListResourceDetails3Component } from './component/list-resource/list-resource-details-3/list-resource-details-3.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { Details2Component } from './component/details/details2/details2.compone
     ListResourceDetails1Component,
     DetailsComponent,
     ListResourceDetails2Component,
-    Details2Component
+    Details2Component,
+    ListResourceDetails3Component
   ],
   imports: [
     BrowserModule,

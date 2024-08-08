@@ -78,7 +78,8 @@
                                        "name":" TC Sciences Mathématiques",
                                        "Subjects":[
                                            {
-                                               "name":"Math",
+                                               "name":"Math1",
+                                               "title":"Math",
                                                "Classroom": [
                                                    {
                                                        "name":"S1",
@@ -94,9 +95,61 @@
                                                                ]
                                                            }
                                                        ]
-                                                   }
+                                                   },
+                                                   {
+                                                    "name":"S2",
+                                                    "Champetre":[
+                                                        {
+                                                            "name":"phisic",
+                                                           
+                                                            "ResourcesPDF":[
+                                                                {
+                                                                    "name":"Math 1.pdf",
+                                                                    "url" :"127.0.0.1/Math1.pdf",
+                                                                    "typeResourcesPDF" :"Cours"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                 "name":"exam",
+                                                 "Champetre":[
+                                                     {
+                                                         "name":"exam national",
+                                                         
+                                                         "ResourcesPDF":[
+                                                             {
+                                                                 "name":"Math 1.pdf",
+                                                                 "url" :"127.0.0.1/Math1.pdf",
+                                                                 "typeResourcesPDF" :"Cours"
+                                                             }
+                                                         ]
+                                                     }
+                                                 ]
+                                             }
                                                ]
-                                           }
+                                           },
+                                           {
+                                            "name":"Arabe",
+                                            "Classroom": [
+                                                {
+                                                    "name":"S1",
+                                                    "Champetre":[
+                                                        {
+                                                            "name":"Math 1",
+                                                            "ResourcesPDF":[
+                                                                {
+                                                                    "name":"Math 1.pdf",
+                                                                    "url" :"127.0.0.1/Math1.pdf",
+                                                                    "typeResourcesPDF" :"Cours"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
                                        ]
        
                                    },

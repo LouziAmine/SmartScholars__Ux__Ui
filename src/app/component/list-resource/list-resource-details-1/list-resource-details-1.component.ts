@@ -40,7 +40,7 @@ export class ListResourceDetails1Component  implements OnInit{
 
 
   goToDetails(establishment: any): void {
-    console.log(establishment);
+    //console.log(establishment);
     //console.log(establishment.LevelEducation);
     this.router.navigate(['/Details__Branch', establishment]);
   }

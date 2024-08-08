@@ -12,7 +12,8 @@
       
     
             <ng-container *ngFor="let subjects of branch.Subjects">
-              <div class="Subjects" ><div class="circle"></div><div>{{ subjects.name }}</div></div>
+
+              <div class="Subjects"  (click)="goToDetails(subjects.name)"><div class="circle"></div><div>{{ subjects.name }}</div></div>
     
 
             </ng-container>
@@ -41,18 +42,3 @@
    
 
 
-<!---
-  <div>
-
- 
-    <ul class="info-list" *ngIf="InfoData && InfoData.length > 0">
-      <li *ngFor="let item of InfoData">
-        {{ item.name }}
-      </li>
-    </ul>
-    <div *ngIf="!InfoData || InfoData.length === 0">
-      No data available.
-    </div>
-
-
-  </div>-->

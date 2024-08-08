@@ -1,0 +1,38 @@
+
+
+<div id="Branch">
+
+    <div    *ngIf="InfoData!.length > 0; else noData">
+      <ng-container *ngFor="let subjects of InfoData">
+        <div  >  
+         
+          <div  class="FlexBranch" ><div class="circle"></div><div>{{ subjects.name }}</div>  </div>
+   
+    
+      
+   
+    
+         
+    
+    
+        </div>
+      </ng-container>
+    </div>
+    <ng-template #noData>
+      <p>No data available for the selected level.</p>
+    </ng-template>
+    
+    
+
+    
+    
+    
+    
+    
+    </div>
+
+
+
+
+
+  

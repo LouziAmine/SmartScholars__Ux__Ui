@@ -8,12 +8,12 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class DetailsComponent  implements OnInit{
   
-  levelEducation!: string;
+  //levelEducation!: string;
 
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.levelEducation = this.route.snapshot.paramMap.get('levelEducation')!;
+    //this.levelEducation = this.route.snapshot.paramMap.get('levelEducation')!;
   }
 
 }

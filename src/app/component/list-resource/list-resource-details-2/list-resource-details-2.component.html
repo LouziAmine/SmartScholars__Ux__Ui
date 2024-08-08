@@ -1,1 +1,88 @@
-<p>list-resource-details-2 works!</p>
+
+<!--
+<div style="background-color: blueviolet;width: 100% ; height: 150px;">1</div>
+
+<div id="levelEducation">
+
+
+
+
+
+
+
+
+
+
+    <div    *ngIf="InfoData!.length > 0; else noData">
+      <ng-container *ngFor="let classLevel of InfoData">
+        <div  >  
+         
+          <div  class="FlexLevelEducation" ><div class="circle"></div><div>{{ classLevel.name }}</div>  </div>
+   
+    
+      
+    
+            <ng-container *ngFor="let branch of classLevel.branch">
+              <div class="Establishment" ><div class="circle"></div><div>{{ branch.name }}</div></div>
+    
+           
+                        <div  class="Branch__conteneur">
+                                <ng-container *ngFor="let branch of classLevel.Branch">
+    
+                                    <div class="Branch" [ngClass]="'N3'"> <div class="circle"></div><div>{{ branch.name }}</div></div>
+
+
+                                    ///
+                                        <ng-container *ngFor="let subjects of branch.Subjects">
+        
+                                          <div class="Branch" [ngClass]="'N3'"> <div class="circle"></div><div>{{ subjects.name }}</div></div>
+      
+                                          
+                                          
+                                        </ng-container> 
+
+                                  ///
+
+                                </ng-container> 
+                      
+                        </div>
+    
+
+            </ng-container>
+    
+         
+    
+    
+        </div>
+      </ng-container>
+    </div>
+    <ng-template #noData>
+      <p>No data available for the selected level.</p>
+    </ng-template>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+-->
+   
+
+  hhhh
+
+  <div>
+ 
+    <ul class="info-list" *ngIf="InfoData && InfoData.length > 0">
+      <li *ngFor="let item of InfoData">
+        {{ item.name }}
+      </li>
+    </ul>
+    <div *ngIf="!InfoData || InfoData.length === 0">
+      No data available.
+    </div>
+  </div>

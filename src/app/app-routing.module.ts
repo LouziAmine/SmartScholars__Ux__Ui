@@ -6,12 +6,16 @@ import { ListResourceDetails1Component } from './component/list-resource/list-re
 
 import { DetailsComponent } from './component/details/details.component'; 
 
+import { ListResourceDetails2Component } from './component/list-resource/list-resource-details-2/list-resource-details-2.component';
 const routes: Routes = [
 
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'details/:level', component: ListResourceDetails1Component },
   { path: 'Details__Component/:level', component: DetailsComponent },
+ // { path: 'Details__Component/:Branch', component: DetailsComponent },
+ // { path: 'ListResourceDetails2Component/:level', component: ListResourceDetails2Component },
+  { path: 'detailsbb/:level', component: ListResourceDetails2Component },
   { path: '**', redirectTo: '/home', pathMatch: 'full' }
 
 

@@ -75,7 +75,7 @@
                                     "name":" Tronc Commun ",
                                     "Branch" : [
                                        {
-                                       "name":"Sciences Mathématiques",
+                                       "name":" TC Sciences Mathématiques",
                                        "Subjects":[
                                            {
                                                "name":"Math",
@@ -101,7 +101,7 @@
        
                                    },
                                    {
-                                       "name":"Sciences Expérimentales",
+                                       "name":"TC Sciences Expérimentales",
                                        "Subjects":[
                                            {
                                                "name":"Math",
@@ -127,7 +127,7 @@
        
                                    },
                                    {
-                                       "name":"Sciences et Technologies Électriques",
+                                       "name":"TC Sciences et Technologies Électriques",
                                        "Subjects":[
                                            {
                                                "name":"Math",
@@ -153,7 +153,7 @@
        
                                    },
                                    {
-                                       "name":"Sciences et Technologies Mécaniques",
+                                       "name":"TC Sciences et Technologies Mécaniques",
                                        "Subjects":[
                                            {
                                                "name":"Math",
@@ -179,7 +179,7 @@
        
                                    },
                                    {
-                                       "name":"Sciences et Technologies Mécaniques",
+                                       "name":"TC Sciences et Technologies Mécaniques AR",
                                        "Subjects":[
                                            {
                                                "name":"Math",
@@ -211,7 +211,7 @@
                                  "name":" 1 Bac ",
                                  "Branch" : [
                                     {
-                                    "name":"Sciences Mathématiques",
+                                    "name":" 1 Bac Sciences Mathématiques",
                                     "Subjects":[
                                         {
                                             "name":"Math",
@@ -237,7 +237,7 @@
     
                                 },
                                 {
-                                    "name":"Sciences Expérimentales",
+                                    "name":" 1 Bac Sciences Expérimentales",
                                     "Subjects":[
                                         {
                                             "name":"Math",
@@ -263,7 +263,7 @@
     
                                 },
                                 {
-                                    "name":"Sciences et Technologies Électriques",
+                                    "name":" 1 Bac Sciences et Technologies Électriques",
                                     "Subjects":[
                                         {
                                             "name":"Math",
@@ -289,7 +289,7 @@
     
                                 },
                                 {
-                                    "name":"Sciences et Technologies Mécaniques",
+                                    "name":" 1 Bac Sciences et Technologies Mécaniques",
                                     "Subjects":[
                                         {
                                             "name":"Math",
@@ -315,7 +315,7 @@
     
                                 },
                                 {
-                                    "name":"Sciences et Technologies Mécaniques",
+                                    "name":" 1 Bac Sciences et Technologies Mécaniques AR",
                                     "Subjects":[
                                         {
                                             "name":"Math",
@@ -347,7 +347,7 @@
                                 "name":" 2 Bac ",
                                 "Branch" : [
                                    {
-                                   "name":"Sciences Mathématiques",
+                                   "name":"2 bac Sciences Mathématiques",
                                    "Subjects":[
                                        {
                                            "name":"Math",
@@ -373,7 +373,7 @@
    
                                },
                                {
-                                   "name":"Sciences Expérimentales",
+                                   "name":" 2 Bac Sciences Expérimentales",
                                    "Subjects":[
                                        {
                                            "name":"Math",
@@ -399,7 +399,7 @@
    
                                },
                                {
-                                   "name":"Sciences et Technologies Électriques",
+                                   "name":" 2 Bac Sciences et Technologies Électriques",
                                    "Subjects":[
                                        {
                                            "name":"Math",
@@ -425,7 +425,7 @@
    
                                },
                                {
-                                   "name":"Sciences et Technologies Mécaniques",
+                                   "name":" 2 Bac Sciences et Technologies Mécaniques",
                                    "Subjects":[
                                        {
                                            "name":"Math",
@@ -451,7 +451,7 @@
    
                                },
                                {
-                                   "name":"Sciences et Technologies Mécaniques",
+                                   "name":" 2 Bac Sciences et Technologies Mécaniques AR",
                                    "Subjects":[
                                        {
                                            "name":"Math",
@@ -486,7 +486,7 @@
                             "name": "CPGE",
                             "LevelEducation" : "CPGE",
                             "Branch" : [{
-                                "name":"CPGE",
+                                "name":"CPGE 1 ",
                                 "Subjects":[
                                     {
                                         "name":"Math",
